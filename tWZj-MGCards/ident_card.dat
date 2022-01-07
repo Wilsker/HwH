@@ -1,0 +1,135 @@
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      written by the UFO converter
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+newcoup 1 mdl_cH
+
+newcoup 2 mdl_cT
+
+newcoup 3 mdl_c6
+
+newcoup 4 mdl_cu
+
+newcoup 5 mdl_cd
+
+newcoup 6 mdl_cl
+
+newcoup 7 mdl_cWW
+
+newcoup 8 mdl_cB
+
+newcoup 9 mdl_cHW
+
+newcoup 10 mdl_cHB
+
+newcoup 11 mdl_cA
+
+newcoup 12 mdl_cG
+
+newcoup 13 mdl_cHQ
+
+newcoup 14 mdl_cpHQ
+
+newcoup 15 mdl_cHu
+
+newcoup 16 mdl_cHd
+
+newcoup 17 mdl_cHud
+
+newcoup 18 mdl_cHL
+
+newcoup 19 mdl_cpHL
+
+newcoup 20 mdl_cHe
+
+newcoup 21 mdl_cuB
+
+newcoup 22 mdl_cuW
+
+newcoup 23 mdl_cuG
+
+newcoup 24 mdl_cdB
+
+newcoup 25 mdl_cdW
+
+newcoup 26 mdl_cdG
+
+newcoup 27 mdl_clB
+
+newcoup 28 mdl_clW
+
+newcoup 29 mdl_c3W
+
+newcoup 30 mdl_c3G
+
+newcoup 31 mdl_c2W
+
+newcoup 32 mdl_c2B
+
+newcoup 33 mdl_c2G
+
+newcoup 34 mdl_tcHW
+
+newcoup 35 mdl_tcHB
+
+newcoup 36 mdl_tcG
+
+newcoup 37 mdl_tcA
+
+newcoup 38 mdl_tc3W
+
+newcoup 39 mdl_tc3G
+
+sminputs 1 aEWM1
+
+sminputs 2 mdl_Gf
+
+sminputs 3 aS
+
+yukawa 1 mdl_ymdo
+
+yukawa 2 mdl_ymup
+
+yukawa 3 mdl_yms
+
+yukawa 4 mdl_ymc
+
+yukawa 5 mdl_ymb
+
+yukawa 6 mdl_ymt
+
+yukawa 11 mdl_yme
+
+yukawa 13 mdl_ymm
+
+yukawa 15 mdl_ymtau
+
+mass 24 mdl_MW
+
+mass 11 mdl_Me
+
+mass 13 mdl_MMU
+
+mass 15 mdl_MTA
+
+mass 2 mdl_MU
+
+mass 4 mdl_MC
+
+mass 6 mdl_MT
+
+mass 1 mdl_MD
+
+mass 3 mdl_MS
+
+mass 5 mdl_MB
+
+mass 25 mdl_MH
+
+decay 23 mdl_WZ
+
+decay 24 mdl_WW
+
+decay 6 mdl_WT
+
+decay 25 mdl_WH

@@ -1,0 +1,11 @@
+change rwgt_dir rwgt
+set param_card NEWCOUP 4 -5.0
+launch --rwgt_name=NEWCOUP_cu_minus_5p0
+set param_card NEWCOUP 4 -1.0
+launch --rwgt_name=NEWCOUP_cu_minus_1p0
+set param_card NEWCOUP 4 -0.0
+launch --rwgt_name=NEWCOUP_cu_minus_0p0
+set param_card NEWCOUP 4 0.3
+launch --rwgt_name=NEWCOUP_cu_minus_0p3
+set param_card NEWCOUP 4 0.8
+launch --rwgt_name=NEWCOUP_cu_minus_0p8

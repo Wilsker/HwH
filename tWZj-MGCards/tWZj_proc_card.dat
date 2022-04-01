@@ -28,7 +28,9 @@ set loop_color_flows False
 set gauge unitary
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-import model /afs/cern.ch/work/j/jthomasw/private/IHEP/MCGen/HwH/UFO_models/Yt_UFO
+# Model restricted to massless b-quarks
+import model /afs/cern.ch/work/j/jthomasw/private/IHEP/MCGen/genproductions/bin/MadGraph5_aMCatNLO/UFO_models/Yt_UFO-nobmass
+# Re-define proton and jet to remove b-quark contribution from proton/jet
 define p = g u c d s u~ c~ d~ s~
 define j = g u c d s u~ c~ d~ s~
 define l+ = e+ mu+
@@ -37,4 +39,4 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 generate p b > j w- z t QCD=0 QED=99 QNP=2
 add process p b~ > j w+ z t~ QCD=0 QED=99 QNP=2
-output tWZj
+output tWZj --nojpeg
